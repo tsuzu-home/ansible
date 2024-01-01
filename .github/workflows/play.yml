@@ -21,5 +21,5 @@ jobs:
           tags: tag:ci
       - run: |
           tailscale status
-          tailscale set --accept-routes
+          sudo tailscale set --accept-routes
           curl -k https://10.23.0.1:6443/.well-known/openid-configuration
