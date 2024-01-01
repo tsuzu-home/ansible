@@ -22,4 +22,4 @@ jobs:
       - run: |
           tailscale status
           sudo tailscale set --accept-routes
-          curl -k https://10.23.0.1:6443/.well-known/openid-configuration
+          ping 10.24.0.128
